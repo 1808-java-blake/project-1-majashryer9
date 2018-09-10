@@ -1,0 +1,165 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+#main-content-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+/*****************************
+  NAV
+*****************************/
+
+.rev-logo {
+  width: auto;
+  height: 5em;
+  margin-right: 5em;
+}
+
+.margin-nav {
+  margin-right: 2em
+}
+
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+  color: rgba(0,0,0,.7);
+}
+
+.navbar-expand-md .navbar-nav .nav-link {
+  padding-right: .75rem !important;
+  padding-left: .75rem !important;
+}
+
+.bg-light {
+  background-color: #ffffff !important;
+}
+
+nav {
+  border-bottom: 1px solid #ffffff !important;
+  margin-bottom: 20px;
+  -webkit-box-shadow: 1px -12px 28px -1px rgba(0, 0, 0, 0.87);
+  -moz-box-shadow: 1px -12px 28px -1px rgba(0, 0, 0, 0.87);
+  box-shadow: 1px -12px 28px -1px rgba(0, 0, 0, 0.87);
+}
+
+#examples-dropdown {
+  cursor: pointer;
+}
+
+/*****************************
+  FORMS
+*****************************/
+
+.userForms {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+/*****************************
+  RECEIPT IMAGES
+*****************************/
+
+.Modal {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  left: 50%;
+  top: 50%; 
+  margin-left: -150px;
+  margin-top: -150px;
+}
+
+#receiptImg {
+  width: 100%;
+}
+
+.modalButton {
+  text-align:center;
+  width:100%;
+}
+
+#receiptPreview {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/*****************************
+  SIGN IN
+*****************************/
+#signInForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  height: 60%;    
+  width: 60%;
+  top: 20%;
+  left: 20%;
+  padding: 10px;
+}
+
+/*****************************
+  MAIN BODY
+*****************************/
+#body {
+  background-color: cadetblue;
+}
+
+.expendit {
+  text-align: center;
+  vertical-align: middle;
+  line-height: 90px; 
+}
+
+
+/*****************************
+  BUTTONS
+*****************************/
+
+#approveButton {
+  background: rgb(28, 184, 65);
+  color: white;
+  border-radius: 4px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  width: 100%;
+}
+
+#denyButton {
+  background: rgb(202, 60, 60);
+  color: white;
+  border-radius: 4px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  width: 100%;
+}
